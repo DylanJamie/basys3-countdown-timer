@@ -1,121 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1778738995">
-  <File Type="PA-TCL" Name="countdown_timer.tcl"/>
-  <File Type="REPORTS-TCL" Name="countdown_timer_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="countdown_timer_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="countdown_timer_opt.dcp"/>
-  <File Type="OPT-DRC" Name="countdown_timer_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="countdown_timer_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="countdown_timer_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="countdown_timer_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="countdown_timer.hwdef"/>
-  <File Type="OPT-TIMING" Name="countdown_timer_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="countdown_timer_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="countdown_timer_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="countdown_timer_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="countdown_timer_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="countdown_timer_placed.dcp"/>
-  <File Type="PLACE-IO" Name="countdown_timer_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="countdown_timer_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="countdown_timer_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="countdown_timer_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="countdown_timer_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="countdown_timer_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="countdown_timer_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="countdown_timer_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="countdown_timer_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="countdown_timer_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="countdown_timer_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="countdown_timer_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="countdown_timer_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="countdown_timer_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="countdown_timer_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="countdown_timer_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="countdown_timer_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="countdown_timer_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="countdown_timer_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="countdown_timer_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="countdown_timer_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="countdown_timer_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="countdown_timer_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="countdown_timer_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="countdown_timer_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="countdown_timer_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="countdown_timer_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="countdown_timer_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="countdown_timer_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="countdown_timer_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="countdown_timer_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="countdown_timer_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="countdown_timer_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="countdown_timer_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="countdown_timer_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="countdown_timer_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="countdown_timer_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="countdown_timer_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="countdown_timer_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="countdown_timer_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="countdown_timer_postroute_physopt_bb.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1778785167">
+  <File Type="PA-TCL" Name="full_mod.tcl"/>
+  <File Type="REPORTS-TCL" Name="full_mod_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="full_mod_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="full_mod_opt.dcp"/>
+  <File Type="OPT-DRC" Name="full_mod_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="full_mod_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="full_mod_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="full_mod_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="full_mod.hwdef"/>
+  <File Type="OPT-TIMING" Name="full_mod_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="full_mod_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="full_mod_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="full_mod_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="full_mod_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="full_mod_placed.dcp"/>
+  <File Type="PLACE-IO" Name="full_mod_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="full_mod_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="full_mod_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="full_mod_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="full_mod_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="full_mod_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="full_mod_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="full_mod_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="full_mod_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="full_mod_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="full_mod_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="full_mod_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="full_mod_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="full_mod_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="full_mod_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="full_mod_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="full_mod_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="full_mod_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="full_mod_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="full_mod_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="full_mod_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="full_mod_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="full_mod_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="full_mod_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="full_mod_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="full_mod_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="full_mod_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="full_mod_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="full_mod_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="full_mod_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="full_mod_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="full_mod_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="full_mod_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="full_mod_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="full_mod_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="full_mod_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="full_mod_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="full_mod_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="full_mod_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="full_mod_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="full_mod_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="countdown_timer_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="countdown_timer_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="countdown_timer_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="countdown_timer_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="countdown_timer_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="countdown_timer_bus_skew_postroute_physopted.rpx"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="countdown_timer.nts"/>
-  <File Type="NOC_SOLUTION_FILE" Name="countdown_timer.ncr"/>
-  <File Type="BG-BIT" Name="countdown_timer.bit"/>
-  <File Type="BG-BIN" Name="countdown_timer.bin"/>
-  <File Type="BITSTR-MSK" Name="countdown_timer.msk"/>
-  <File Type="BITSTR-RBT" Name="countdown_timer.rbt"/>
-  <File Type="BITSTR-NKY" Name="countdown_timer.nky"/>
-  <File Type="BITSTR-BMM" Name="countdown_timer_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="countdown_timer.mmi"/>
-  <File Type="PDI-FILE" Name="countdown_timer.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="countdown_timer_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="countdown_timer_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="countdown_timer.rcfi"/>
-  <File Type="CFI_FILE" Name="countdown_timer.cfi"/>
-  <File Type="RNPI_FILE" Name="countdown_timer.rnpi"/>
-  <File Type="RCDO-FILE" Name="countdown_timer.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="countdown_timer_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="countdown_timer_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="countdown_timer_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="countdown_timer_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="countdown_timer_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="countdown_timer_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="countdown_timer_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="countdown_timer_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="countdown_timer_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="countdown_timer_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="countdown_timer_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="countdown_timer_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="countdown_timer_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="countdown_timer_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="countdown_timer_pld_unmask.rcdo"/>
-  <File Type="NPI_FILE" Name="countdown_timer.npi"/>
-  <File Type="RBD_FILE" Name="countdown_timer.rbd"/>
-  <File Type="MMI-FILE" Name="countdown_timer.mmi"/>
-  <File Type="BIF-FILE" Name="countdown_timer.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="countdown_timer_boot.bif"/>
-  <File Type="PL-BIF-FILE" Name="countdown_timer_pld.bif"/>
-  <File Type="LTX-FILE" Name="countdown_timer.ltx"/>
-  <File Type="BOOT-LTX-FILE" Name="countdown_timer_boot.ltx"/>
-  <File Type="PL-LTX-FILE" Name="countdown_timer_pld.ltx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="full_mod.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="full_mod.ncr"/>
+  <File Type="BG-BIT" Name="full_mod.bit"/>
+  <File Type="BG-BIN" Name="full_mod.bin"/>
+  <File Type="BITSTR-MSK" Name="full_mod.msk"/>
+  <File Type="BITSTR-RBT" Name="full_mod.rbt"/>
+  <File Type="BITSTR-NKY" Name="full_mod.nky"/>
+  <File Type="BITSTR-BMM" Name="full_mod_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="full_mod.mmi"/>
+  <File Type="PDI-FILE" Name="full_mod.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="full_mod_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="full_mod_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="full_mod.rcfi"/>
+  <File Type="CFI_FILE" Name="full_mod.cfi"/>
+  <File Type="RNPI_FILE" Name="full_mod.rnpi"/>
+  <File Type="RCDO-FILE" Name="full_mod.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="full_mod_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="full_mod_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="full_mod_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="full_mod_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="full_mod_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="full_mod_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="full_mod_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="full_mod_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="full_mod_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="full_mod_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="full_mod_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="full_mod_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="full_mod_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="full_mod_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="full_mod_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="full_mod.npi"/>
+  <File Type="RBD_FILE" Name="full_mod.rbd"/>
+  <File Type="MMI-FILE" Name="full_mod.mmi"/>
+  <File Type="BIF-FILE" Name="full_mod.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="full_mod_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="full_mod_pld.bif"/>
+  <File Type="LTX-FILE" Name="full_mod.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="full_mod_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="full_mod_pld.ltx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="countdown_timer.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="countdown_timer.sysdef"/>
-  <File Type="BG-BGN" Name="countdown_timer.bgn"/>
-  <File Type="BG-DRC" Name="countdown_timer.drc"/>
-  <File Type="RDI-RDI" Name="countdown_timer.vdi"/>
+  <File Type="BITSTR-LTX" Name="full_mod.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="full_mod.sysdef"/>
+  <File Type="BG-BGN" Name="full_mod.bgn"/>
+  <File Type="BG-DRC" Name="full_mod.drc"/>
+  <File Type="RDI-RDI" Name="full_mod.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="countdown_timer_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="countdown_timer_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="full_mod_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="full_mod_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/bomb_timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/countdown_timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/full_mod.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -124,8 +138,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="countdown_timer"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="full_mod"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

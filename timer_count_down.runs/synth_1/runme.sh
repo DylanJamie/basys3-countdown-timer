@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log countdown_timer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source countdown_timer.tcl
+EAStep vivado -log full_mod.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_mod.tcl
