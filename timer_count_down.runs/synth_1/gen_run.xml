@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1778711750" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/countdown_timer.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1778738888" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/countdown_timer.dcp">
   <File Type="PA-TCL" Name="countdown_timer.tcl"/>
   <File Type="REPORTS-TCL" Name="countdown_timer_reports.tcl"/>
   <File Type="RDS-RDS" Name="countdown_timer.vds"/>
@@ -51,9 +51,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Wed May 13 15:35:55 2026
-# Process ID         : 8456
+# Start of session at: Wed May 13 23:08:13 2026
+# Process ID         : 15452
 # Current directory  : C:/FPGA/timer_count_down/timer_count_down.runs/synth_1
 # Command line       : vivado.exe -log countdown_timer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source countdown_timer.tcl
 # Log file           : C:/FPGA/timer_count_down/timer_count_down.runs/synth_1/countdown_timer.vds
@@ -17,8 +17,8 @@
 # CPU Physical cores : 4
 # CPU Logical cores  : 4
 # Host memory        : 16935 MB
-# Swap memory        : 2153 MB
-# Total Virtual      : 19088 MB
-# Available Virtual  : 1852 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 18008 MB
+# Available Virtual  : 7432 MB
 #-----------------------------------------------------------
 source countdown_timer.tcl -notrace

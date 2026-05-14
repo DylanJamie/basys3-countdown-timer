@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Wed May 13 15:43:43 2026
+| Date             : Wed May 13 23:11:24 2026
 | Host             : DESKTOP-TKP5PBD running 64-bit major release  (build 9200)
 | Command          : report_power -file countdown_timer_power_routed.rpt -pb countdown_timer_power_summary_routed.pb -rpx countdown_timer_power_routed.rpx
 | Design           : countdown_timer
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.207        |
+| Total On-Chip Power (W)  | 0.564        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.135        |
-| Device Static (W)        | 0.072        |
+| Dynamic (W)              | 0.494        |
+| Device Static (W)        | 0.069        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 84.0         |
-| Junction Temperature (C) | 26.0         |
+| Max Ambient (C)          | 82.2         |
+| Junction Temperature (C) | 27.8         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.054 |       62 |       --- |             --- |
-|   LUT as Logic |     0.023 |       14 |     20800 |            0.07 |
-|   CARRY4       |     0.014 |        7 |      8150 |            0.09 |
-|   Register     |     0.010 |       32 |     41600 |            0.08 |
+| Slice Logic    |     0.224 |      196 |       --- |             --- |
+|   LUT as Logic |     0.173 |       98 |     20800 |            0.47 |
+|   CARRY4       |     0.024 |       11 |      8150 |            0.13 |
+|   Register     |     0.022 |       63 |     41600 |            0.15 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.077 |       56 |       --- |             --- |
-| I/O            |     0.004 |       29 |       106 |           27.36 |
-| Static Power   |     0.072 |          |           |                 |
-| Total          |     0.207 |          |           |                 |
+|   F7/F8 Muxes  |     0.000 |        3 |     32600 |           <0.01 |
+| Signals        |     0.258 |      146 |       --- |             --- |
+| I/O            |     0.012 |       30 |       106 |           28.30 |
+| Static Power   |     0.069 |          |           |                 |
+| Total          |     0.564 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +72,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.144 |       0.135 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.505 |       0.494 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,7 +139,7 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| countdown_timer |     0.135 |
+| countdown_timer |     0.494 |
 +-----------------+-----------+
 
 

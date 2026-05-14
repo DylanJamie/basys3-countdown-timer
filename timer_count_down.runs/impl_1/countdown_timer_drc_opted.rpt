@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Wed May 13 15:42:52 2026
+| Date         : Wed May 13 23:10:48 2026
 | Host         : DESKTOP-TKP5PBD running 64-bit major release  (build 9200)
 | Command      : report_drc -file countdown_timer_drc_opted.rpt -pb countdown_timer_drc_opted.pb -rpx countdown_timer_drc_opted.rpx
 | Design       : countdown_timer
