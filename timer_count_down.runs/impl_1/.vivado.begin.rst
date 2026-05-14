@@ -33,3 +33,13 @@
     <Process Command="vivado.bat" Owner="Dylan Jamie Boles" Host="DESKTOP-TKP5PBD" Pid="11360" HostCore="4" HostMemory="016935034880">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Dylan Jamie Boles" Host="DESKTOP-TKP5PBD" Pid="14144" HostCore="4" HostMemory="016935034880">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Dylan Jamie Boles" Host="DESKTOP-TKP5PBD" Pid="2868" HostCore="4" HostMemory="016935034880">
+    </Process>
+</ProcessHandle>

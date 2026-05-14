@@ -29,12 +29,18 @@ module full_mod(
     output [6:0] seg,
     output [3:0] an
 );
+
     // mode control
     reg prev_mode;
     wire mode_change;
     
     assign mode_change = (prev_mode != sw[15]);
     
+    // set switch 15
+    always @(posedge clk) begin
+        prev_mode <= sw[15];
+    end 
+
     // Internal wires for the count down timer
     wire [15:0] led_count;
     wire [6:0] seg_count;

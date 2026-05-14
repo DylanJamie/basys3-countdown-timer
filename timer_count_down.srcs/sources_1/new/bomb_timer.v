@@ -59,7 +59,7 @@ module bomb_timer(
         end
         
         // Start the countdown
-        if (!active_switches) begin
+        else if (!active_switches) begin
             counter <= 0;
         end
         
